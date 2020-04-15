@@ -1,3 +1,8 @@
-export const CONNECTION = 'connection'
-export const BROADCAST = 'broadcast'
-export const REPLY = 'reply'
+const DISCONNECT = 'disconnect';
+const BROADCAST = 'broadcast';
+const CONNECTION = 'connection';
+const REPLY = 'reply'
+
+module.exports = {
+    DISCONNECT, BROADCAST, CONNECTION, REPLY
+}
